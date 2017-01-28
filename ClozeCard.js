@@ -14,11 +14,6 @@ function ClozeCard (text, cloze){
 	this.cloze = cloze;
 
 
-
-
-	// ********Instead of all that crap above, look at the three lines beneath.
-
-
 	// Here, we are going to create a method that allows the user to enter the answer in any point during the question, instead of making them enter it at either the beginning or the end. It will take out the answer from the statement string using the replace method, and replace it with "...". It will then return both values to show that we are able to grab either sets of data and show it to the user at request.
 	var replace = this.text.replace(this.cloze, "...");
 
