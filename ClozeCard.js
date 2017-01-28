@@ -30,7 +30,7 @@ function ClozeCard (text, cloze){
 
 var benjaminFranklin = new ClozeCard ("Benjamin Franklin is on the 100 dollar bill.", "Benjamin Franklin");
 
-var captainAmerica = new ClozeCard ("The Red Mask was defeated by Captain America during World War 2", "Captain America");
+var captainAmerica = new ClozeCard ("The Red Skull was defeated by Captain America during World War 2", "Captain America");
 
 var anthonyMyhre = new ClozeCard ("It is very sad that Anthony Myhre still wets the bed.", "Anthony Myhre");
 
